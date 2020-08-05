@@ -49,7 +49,7 @@ public class Item {
 
 	public String toString() {
 
-		return String.format("%-10s %-30s %-10s %-10s\n", getAssetTag(), getDescription(),
+		return String.format("%-10s %-30s %-10s %-10s", getAssetTag(), getDescription(),
 				showAvailability(getIsAvailable()), getDueDate());
 	}
 
